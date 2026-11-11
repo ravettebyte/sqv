@@ -1,0 +1,26 @@
+﻿Sertões que Vigiam - Modelo para instalar/gerar APK (Android)
+
+PASTA: modelo-apk
+Conteúdo: index.html (jogo), manifest.webmanifest, sw.js, icon.svg
+
+OPÇÃO 1 - Instalar no celular pelo navegador (PWA, mais rápido)
+1. No PC, abra a pasta do jogo e rode um servidor local:
+   - Com Node:  npx --yes http-server .\modelo-apk -p 8080 -a 0.0.0.0 -c-1
+   - Ou dê dois cliques em start-servidor.cmd (se tiver Node/npm instalado)
+2. No celular (mesma rede Wi-Fi), abra no Chrome: http://IP_DO_PC:8080
+   (o IP aparece ao iniciar o servidor; ex.: http://192.168.0.101:8080)
+3. No Chrome, toque no menu (⋮) > "Instalar app" / "Adicionar à tela inicial".
+4. O jogo abre em tela cheia como app e funciona offline após o primeiro carregamento.
+
+OPÇÃO 2 - Gerar um arquivo APK instalável
+1. Publique a pasta "modelo-apk" em um site com HTTPS (ex.: GitHub Pages, Netlify, Vercel) 
+   OU exponha temporariamente seu servidor local com uma URL HTTPS.
+2. Acesse https://www.pwabuilder.com no PC.
+3. Informe a URL do jogo publicado e clique em "Start/Package".
+4. Escolha "Android" e gere/baixe o pacote APK/AAB para instalar no celular.
+   (para publicar na Play Store é necessário assinar o AAB; para teste direto pode usar o APK gerado).
+
+IMPORTANTE
+- Service worker/instalação exige abrir por HTTP/HTTPS (não funciona abrindo o arquivo direto).
+- Para gerar APK sem publicar, você também pode usar ferramentas como Bubblewrap (CLI) com o manifesto desta pasta.
+- Versão do jogo: v1.1 (Créditos: Ravette)

@@ -1,0 +1,14 @@
+﻿{
+  "name": "Sertões que Vigiam",
+  "short_name": "Sertões",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#050507",
+  "theme_color": "#050507",
+  "description": "Vigie o posto das 12h às 6h. Feche portas, use luzes e monitore as câmeras.",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

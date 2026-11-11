@@ -1,0 +1,9 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="64" fill="#050507"/>
+  <rect x="36" y="36" width="440" height="440" rx="48" fill="#141418" stroke="#6b2020" stroke-width="8"/>
+  <text x="256" y="210" font-size="64" text-anchor="middle" fill="#d44" font-family="Courier New, monospace" font-weight="bold">SERTÕES</text>
+  <text x="256" y="285" font-size="54" text-anchor="middle" fill="#d44" font-family="Courier New, monospace" font-weight="bold">QUE</text>
+  <text x="256" y="360" font-size="54" text-anchor="middle" fill="#d44" font-family="Courier New, monospace" font-weight="bold">VIGIAM</text>
+  <circle cx="256" cy="420" r="10" fill="#2cff6a"/>
+  <text x="256" y="455" font-size="22" text-anchor="middle" fill="#9a9" font-family="Courier New, monospace">v1.1</text>
+</svg>
